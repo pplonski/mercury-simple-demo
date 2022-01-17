@@ -1,1 +1,1 @@
-web: mercury collectstatic --noinput & mercury runworker & mercury runserver 0.0.0.0:$PORT --noadditional
+web: mercury runworker & gunicorn mercury.server.wsgi --bind 0.0.0.0:$PORT --workers 2 --threads 2
