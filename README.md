@@ -4,7 +4,7 @@
 
 Deploy Jupyter Notebook as web app to Heroku with Mercury. 
 
-1. Create a simple Python notebook that print greetings.
+1. Create a simple Python notebook that prints greetings.
 2. Transform notebook to web app with [Mercury](https://github.com/mljar/mercury).
 3. Deploy to Heroku.
 
